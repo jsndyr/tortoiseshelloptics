@@ -1,0 +1,38 @@
+/* PAGE LEVEL STYLES */
+html {
+  font-size: 18px; 
+  font-family: Helvetica, sans-serif; 
+}
+
+/* TOP BANNER STYLES */
+
+
+/* SUB-BANNER STYLES */
+
+
+/* ABOUT US STYLES */
+
+
+/* CONTACT INFO STYLES */
+
+
+/* FOOTER STYLES */
+footer{
+  display: block;
+  padding: 5rem;
+  text-align: left;
+ }
+
+
+/* MEDIA QUERIES */
+
+/* TABLETS */
+@media only screen and (max-width: 1024px){
+
+}
+
+
+/* PHONES */
+@media only screen and (max-width: 470px){
+
+}
