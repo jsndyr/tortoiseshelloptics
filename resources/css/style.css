@@ -1,38 +1,126 @@
 /* PAGE LEVEL STYLES */
 html {
-  font-size: 18px; 
-  font-family: Helvetica, sans-serif; 
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'Helvetica', sans-serif;
 }
 
-/* TOP BANNER STYLES */
+ a:link, a:visited, a:hover, a:active{
+  text-decoration: none;
+  color: white;
+}
 
+/* HEADER LEVEL STYLES */
+.site-header {
+  height: 30rem;
+  background: url(".././img/glasses-bg.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 1rem;
+  color: white;
+  padding: 0.5rem;
+}
 
-/* SUB-BANNER STYLES */
+.container {
+  max-width: 960px;
+  margin: auto;
+}
 
+.nav-menu {
+  display: inline-flex;
+  margin: 1rem 2rem;
+}
 
-/* ABOUT US STYLES */
+.desktop-nav li {
+  margin: 1rem 2rem 1rem 0;
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
 
+.mobile-nav {
+  display: none; /*don't show for desktop users */
+}
 
-/* CONTACT INFO STYLES */
+.flex {
+  display: flex;
+}
 
+header .flex {
+  justify-content: flex-end;
+}
 
-/* FOOTER STYLES */
-footer{
-  display: block;
-  padding: 5rem;
-  text-align: left;
- }
+header img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  vertical-align: middle;
+}
 
+header span {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
 
-/* MEDIA QUERIES */
+.nav-bar {
+  color: white;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-/* TABLETS */
-@media only screen and (max-width: 1024px){
+.inline-banner {
+  background-color: white;
+  padding: 0 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 1.2;
+}
+
+.inline-banner h4 {
+  font-weight: bold;
+  font-size: 2rem;
+  height: 1.2;
+  color: black;
+  text-align: center;
+  margin: 1.5rem 5rem;
+}
+
+/* company info section */
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+}
+
+/* footer */
+footer {
+  display: flex;
+  background-color: azure;
+  height: 9.5rem;
+  align-items: center;
 
 }
 
+footer img{
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
 
-/* PHONES */
-@media only screen and (max-width: 470px){
+/* needed? */
 
+.mobile-nav li {
+  font-size: 1.5rem;
 }
